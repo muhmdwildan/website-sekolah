@@ -1,0 +1,76 @@
+/* === LAYOUT UMUM === */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+  background: #f7f9fc;
+}
+
+/* === NAVBAR === */
+.navbar {
+  background-color: #1565c0;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* === SIDEBAR === */
+.sidebar {
+  width: 220px;
+  background: #e3f2fd;
+  padding: 20px;
+  height: calc(100vh - 60px);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #1565c0;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #0d47a1;
+}
+
+/* === HALAMAN === */
+.page {
+  padding: 20px;
+}
+
+.page h2 {
+  color: #1565c0;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
