@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const HERO_SLIDES = [
-  { id: 1, img: "/public/images/slide1.jpg", text: "Selamat Datang di Official Website, SMA Negri Fiktif" },
-  { id: 2, img: "/public/images/slide2.jpg", text: "Generasi Berprestasi & Berkarakter" },
-  { id: 3, img: "/public/images/slide3.jpg", text: "Belajar Nyaman & Modern" },
+  { id: 1, img: "/images/slide1.jpg", text: "Selamat Datang di Official Website, SMA Negri Fiktif" },
+  { id: 2, img: "/images/slide2.jpg", text: "Generasi Berprestasi & Berkarakter" },
+  { id: 3, img: "/images/slide3.jpg", text: "Belajar Nyaman & Modern" },
 ];
 
 const PROGRAMS = [
@@ -76,7 +76,6 @@ export default function Home() {
           Kami rutin mengadakan workshop kreatif, lomba sains, dan kegiatan pengembangan karakter untuk mendukung siswa menjadi generasi unggul.
         </p>
       </section>
-
     </div>
   );
 }

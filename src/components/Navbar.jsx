@@ -13,9 +13,9 @@ function Navbar() {
           <img 
             src={Logo} 
             alt="Logo Sekolah" 
-            className="h-14 w-20 transform scale-150" 
+            className="h-14 w-20 transform scale-150 mr-00" 
           />
-          <span className="text-2xl font-bold text-white ml-3">SMA Negri 1 Fiktif</span>
+          <span className="text-lg font-bold text-white">SMA Negri 1 Fiktif</span>
         </Link>
 
         <ul className="hidden md:flex space-x-6 font-semibold text-white">
@@ -37,7 +37,7 @@ function Navbar() {
       {/* Menu Mobile */}
       {isOpen && (
         <ul className="md:hidden bg-blue-600 text-white font-semibold space-y-4 px-6 py-4">
-          {["Beranda","Profil","Akademik","Berita","PPDB","Galeri","Guru & Staf","Kontak"].map((item, idx) => (
+          {["Beranda","Profil","Akademik","Berita","PPDB","Guru & Staf","Kontak"].map((item, idx) => (
             <li key={idx}>
               <Link 
                 to={`/${item.toLowerCase().replace(/\s+/g, '-')}`} 
